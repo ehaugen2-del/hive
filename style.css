@@ -51,40 +51,6 @@ ul{
   color: white;
 }
 
-.dropdown:hover .nav-link{
-  color: white;
-
-}
-
-.dropdown{
-  position: relative;
-}
-
-.nav-main-menu .dropdown-content{
-display: none;
-position: absolute;
-top: 2.875em;
-left: 0;
-min-width: 240px;
-border-top: 3px solid white;
-border-radius: 0 0 3px;
-animation: slide-up .3s; 
-}
-
-.dropdown-content li{
-  padding: 1.25em;
-}
-
-.dropdown-content li:hover{
-  background: transparent;
-}
-
-.dropdown:hover .dropdown-content{
-  display: block;
-}
-
-
-
 .img-holder img{
   width: 700px;  
 }
