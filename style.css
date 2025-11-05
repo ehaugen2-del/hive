@@ -92,6 +92,7 @@ animation: slide-up .3s;
   object-fit: cover;}
 
 .img-holder{
+  display: flex;
   border: none;
   border-radius: 5px;
   width: 700px;
@@ -109,8 +110,8 @@ animation: slide-up .3s;
   position: relative;
   width: 700px;
   height: 500px;
-  top: 400px;
-  left: 550px; 
+  top: 475px;
+  left: 430px; 
   background: transparent;
   align-items: center;
 
