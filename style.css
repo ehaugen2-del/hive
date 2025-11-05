@@ -116,14 +116,6 @@ animation: slide-up .3s;
 
 }
 
-
-
-div{
-  display: block;
-
-}
-
- 
 .about{
    display:flex;
    background: transparent;
@@ -200,7 +192,7 @@ span{
   border: 1px solid black;
   width: 400px;
   height: auto;
-  display: block;
+  display: flex;
   margin-left: auto;
   padding-left: 50px;
 }
