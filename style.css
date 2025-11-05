@@ -138,6 +138,7 @@ div{
 .about-content{
    max-width: 600px;
    flex: 1;
+   vertical-align: top;
 }
 
 .about-content h1{
