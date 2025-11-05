@@ -124,11 +124,10 @@ display: block;
    background: transparent;
    align-items: center;
    justify-content: space-around;
-   gap: 5rek;
    height: 100vh;
    padding: 0 15px;
    color: #ba924a;
-   flex-wrap: wrap;
+   
    
 }
 
