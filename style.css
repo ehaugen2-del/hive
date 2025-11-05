@@ -86,13 +86,11 @@ animation: slide-up .3s;
 
 
 .img-holder img{
-  max-width: 100%;
-  max-height: 100%;
-  aspect-ratio: 5/3;
-  object-fit: cover;}
+  width: 700px;  
+}
 
 .img-holder{
-  display: flex;
+  display: block;
   border: none;
   border-radius: 5px;
   width: 700px;
@@ -106,14 +104,18 @@ animation: slide-up .3s;
 }
 
 .hive-logo{
-  float: none;
-  position: relative;
+display: block;
+  border: none;
+  border-radius: 5px;
   width: 700px;
   height: 500px;
-  top: 475px;
-  left: 430px; 
-  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   align-items: center;
+  padding-top: 800px;
+  padding-left: 200px;
 
 }
 
