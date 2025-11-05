@@ -94,8 +94,8 @@ animation: slide-up .3s;
 .img-holder{
   border: none;
   border-radius: 5px;
-  width: 43.75em;
-  height: 31.25em;
+  width: 700px;
+  height: 500px;
   position: absolute;
   top: 50%;
   left: 50%;
