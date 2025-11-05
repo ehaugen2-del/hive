@@ -111,6 +111,7 @@ animation: slide-up .3s;
   top: 400px;
   left: 430px; 
   background: transparent;
+  align-items: center;
 
 }
 
