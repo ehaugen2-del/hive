@@ -14,7 +14,7 @@ body{
   }
 
 a{
-  text-decoration: underline;
+  text-decoration: none;
   color: #ba924a;
   font-weight: 500;
 
