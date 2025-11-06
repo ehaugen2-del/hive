@@ -1,5 +1,7 @@
 *{
-  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -10,76 +12,88 @@ body{
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-
-  }
+  font-family: "Lato", sans-serif;
+}
 
 a{
   text-decoration: none;
   color: #ba924a;
-  font-weight: 500;
-
-}  
+}
 
 ul{
-  list-style-type: none;
+  list-style: none;
 }
 
-.nav{
- display: flex;
- justify-content: space-between;
- align-items: center;
- padding-inline: 3vw;
- height: 4.375em;
- background: transparent;
- color: #ba924a;
-}
-
-.nav-main-menu{
+.header{
   display: flex;
-  font-size: 1.25em;
-
+  color: #ba924a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
 
-.nav-link{
-  padding: 26px 10px;
-  margin: 10px;
-  transition: .3s;
+.header_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+  max-width: 1200px;
+ padding: 0 30px;
+}
+
+.logo{
+  height: 80px;
+  display: block;
+}
+
+
+
+.nav_list{
+ display: flex;
+ column-gap: 40px;
+}
+
+.nav_items:hover{
+  color:white;
+  transition: all 0.4s;
   
 }
 
-.nav-link:hover{
-  color: white;
+.nav_list{
+  font-size: 24px;
+  color:#ba924a;
+  transition: all 0.4s;
+  cursor: pointer;  
 }
 
-.dropdown:hover .nav-link{
-  color: white;
-}
-
-.dropdown{
+.nav_link{
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  transition:  all 0.4s;
   position: relative;
 }
 
-.nav-main-menu .dropdown-content{
-  display: none;
+.nav_link:hover
+.nav_link:focus{
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav_link::after{
+  content: '';
+  height: 2px;
+  width: 100%;
+  color: white;
   position: absolute;
-  top: 46px;
   left: 0;
-  min-width: 240px;
-  border-top: 3px solid white;
-  border-radius: 0 0 3px;
-  animation: slide-up .3s;
+  bottom: -8px;
+  transition: all 0.2s;
+  opacity: 0;
+  pointer-events: none;
 }
 
-.dropdown-content li{
-  padding: 20px;
-}
-
-.dropdown-content li:hover[
-  background: transparent;
-}
-
-.dropdown:hover .dropdown-content{
-  display: block;
+.nav-link:hover{
+  opacity: 1;
+  color: white;
 }
 
 
