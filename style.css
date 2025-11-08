@@ -96,26 +96,38 @@ ul{
   color: white;
 }
 
-.img-holder img{
-  width: 700px;  
+.nav ul li ul{
+  visibility: hidden;
+  display: none;
+  position: absolute;
+  color: white;
+  transition: all ease-in-out 100ms;
 }
+
+.nav ul li ul li a{
+  white-space: nowrap;
+  
+}
+
+ul li a:hover{
+  color: white;
+}
+
+ul li:hover>ul{
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  color: white;
+}
+
+
+.img-holder img{
+  width: 700px;
+}
+
 
 .img-holder{
   display: block;
-  border: none;
-  border-radius: 5px;
-  width: 700px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  align-items: center;
- 
-}
-
-.hive-logo{
-display: block;
   border: none;
   border-radius: 5px;
   width: 700px;
@@ -125,39 +137,58 @@ display: block;
   left: 50%;
   transform: translate(-50%, -50%);
   align-items: center;
-  padding-top: 800px;
-  padding-left: 200px;
+  margin-top: 100px;
+}
+
+.hive-logo{
+  display: block;
+  border: none;
+  border-radius: 5px;
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  padding-top: 500px;
+  padding-left: 100px;
 
 }
 
+
+
+
+ 
 .about{
    display:flex;
    background: transparent;
    align-items: center;
    justify-content: space-around;
+   gap: 5rek;
    height: 100vh;
    padding: 0 15px;
    color: #ba924a;
-   
+  
    
 }
 
 .about-content{
    max-width: 600px;
    flex: 1;
-   vertical-align: top;
-   padding-top: 30px;
 }
 
 .about-content h1{
    font-size: 56px;
    font-weight: 700;
    line-height: 1.2;
+   margin-top: 8px;
 }
 
 .about-content p{
   font-size: 20px;
   margin: 20px 0 40px;
+  padding-bottom: 50px;
 
 }
 
@@ -175,6 +206,7 @@ button{
    padding: 13px 30px;
    border-radius: 30px;
    transition: .4s;
+   margin-top: 10px;
 }
  button a{
   color: black;
@@ -192,7 +224,7 @@ span{
 } 
 
 #img-place{
- display: block;
+ display: flex;
  margin-left: auto;
  width: 300px;
  padding-right: 100px;
@@ -341,43 +373,105 @@ span{
   font-size: 36px;
 }
 
-    .contact-us{
-      Font-family: Lato;
-      color:#ba924a;
-      font-size: 48px;
-      line-height: 20px;
-      margin-top: 30px;
-      margin-bottom: 20px;
-      padding-left: 30px;
-      vertical-align: top;
+.contact-us{
+  Font-family: Lato;
+  color:#ba924a;
+  font-size: 48px;
+  line-height: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  vertical-align: top;
     }
 
-   .address{
-      
-      font-family: Roboto;
-      color:#ba924a;
-      font-size: 24px;
-      line-height: 20px;
-      margin-top: 8px;
-      margin-bottom: 0;
-      padding-left: 30px;
-     }
- 
-     .address-head{
-      margin-top: 200px;
-      color: #ba924a;
-      padding-left: 30px;
-      font-size: 36px;
-     }
- 
+.address{
+  
+  font-family: Roboto;
+  color:#ba924a;
+  font-size: 24px;
+  line-height: 1.2500em;
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-left: 30px;
+  }
+
+  .address-head{
+  margin-top: 200px;
+  color: #ba924a;
+  padding-left: 30px;
+  font-size: 36px;
+  }
+
+
+  
+.map{
+    padding-left: 32px;
+    padding-top: 20px;
+}
+
+.img-jp{
+  width: 500px;
+  
+}
+
    
-     
-    .map{
-       padding-left: 32px;
-       padding-top: 20px;
+ .j-h1{
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ba924a;
+  }
+   
+  .j-h3{
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ba924a;
+}
+ 
+  .j-paragraph{
+     text-wrap-style: balance;
+     font-size: 18px;
+     text-transform: uppercase;
+     line-height: 1.5;
+     color: #ba924a;
     }
-
-    .img-jp{
+ 
+ 
+  .boxes{
+     display: flex;
+     flex-directon: row;
+  }
+ 
+  .about{
+     background-color: transparent;
+     margin: 30px;
+     display: grid;
+     grid-template-columns: 50px 50px 50px;
+     color: #ba924a; 
+   }
+  
+   .img-j{
+      margin: 30px;
       width: 500px;
-      
+      display: flex;
+      justify-content: flex-end;
+   }
+ 
+   .div-1{
+     background-color: lightblue;
+   }
+ 
+    .div-2{
+     background-color: lightpink;
+   }
+ 
+    h{
+      color:#ba924a;
+    }
+    
+    ul{
+      color:#ba924a;
+      display: flex;
+      flex-direction: column;
     }
