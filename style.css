@@ -14,7 +14,7 @@
    background-repeat: no-repeat;
    background-size: cover;
    color: #ba942a;
-   height: 100vh;
+   height: 800vh;
   }
 
   nav{
@@ -75,12 +75,14 @@
      display: none;
      cursor: pointer;
      width: 34px;
+     
    }
 
    .hamburger .bar{
     flex-basis: 100%;
     height: 4px;
-    background-color: black;
+    background-color: #ba942a;
+  
     margin: 3px;
    }
 
@@ -91,6 +93,7 @@
     .hamburger {
         display: flex;
         flex-wrap: wrap;
+        color: #ba942a;
     }
 
     .logo {
