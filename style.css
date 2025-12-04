@@ -130,6 +130,10 @@
     .nav-links .nav-cta-button:hover {
         color: white;
     }
+
+    .about {
+        text-align: center;
+    }
    }
 
 
