@@ -147,7 +147,7 @@
    }
 @media screen and (orientation: landscape) {
     body{
-        height: 80vh;
+        height: 100vh;
     }
    }
 
