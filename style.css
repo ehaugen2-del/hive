@@ -13,6 +13,7 @@
    background-image: url(img/wallpaper.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+   background-position: fixed;
    color: #ba942a;
    height: 100vh;
   }
@@ -144,10 +145,14 @@
         margin-right: auto;
         width: 80%;
     }
+     .index-category-box{
+        margin-left: 10px;
+    }
    }
 @media screen and (orientation: landscape) {
     body{
-        height: 200vh;
+        height: 100vh;
+        background-position: fixed;
     }
    }
 
