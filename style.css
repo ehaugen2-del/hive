@@ -11,9 +11,9 @@
  
  body {
    background-image: url(img/wallpaper.jpg);
-   
+   background-position: center center;
    background-size: cover;
-   background-position: fixed;
+   background-attachment: fixed;
    color: #ba942a;
    height: 100vh;
   }
