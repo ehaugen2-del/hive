@@ -14,7 +14,7 @@
    background-repeat: no-repeat;
    background-size: cover;
    color: #ba942a;
-   height: 400vh;
+   height: 100vh;
   }
 
   nav{
@@ -145,7 +145,11 @@
         width: 80%;
     }
    }
-
+@media screen and (orientation: landscape) {
+    body{
+        height: 80vh;
+    }
+   }
 
   .hive-img{
     display: block;
