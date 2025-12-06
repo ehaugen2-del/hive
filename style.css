@@ -132,7 +132,8 @@
     }
 
     .about {
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     iframe {
@@ -249,7 +250,7 @@
   }
 
   index-category-box {
-    margin-lef: 10px;
+    margin-left: 10px;
   }
 
     iframe {
